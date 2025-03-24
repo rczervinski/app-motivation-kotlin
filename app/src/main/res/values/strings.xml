@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin_Course</string>
+    <string name="meu_texto">Meu Texto</string>
+    <string name="login">Login</string>
+    <string name="autom_veis">Automóveis</string>
+    <string name="codigo">Codigo</string>
+    <string name="salvar">Salvar</string>
+    <string name="qual_o_seu_nome">Qual o seu nome?</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.HomeActivity">
+
+    <View
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/wine"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/image_button1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/main_view"
+        android:layout_alignBottom="@id/main_view"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="50dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="INFINITY"
+        android:src="@drawable/infinity"
+        android:scaleType="centerInside"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:clickable="true"/>
+        />
+
+
+    <ImageView
+        android:id="@+id/image_button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/main_view"
+        android:layout_alignBottom="@id/main_view"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="100dp"
+        android:layout_toEndOf="@+id/image_button1"
+        android:background="@android:color/transparent"
+        android:contentDescription="HAPPY"
+        android:src="@drawable/happiness"
+        android:scaleType="centerInside"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:clickable="true"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/image_button3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/main_view"
+        android:layout_alignBottom="@id/main_view"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="100dp"
+        android:layout_toEndOf="@+id/image_button2"
+        android:background="@android:color/transparent"
+        android:contentDescription="SUNNY"
+        android:src="@drawable/sun"
+        android:scaleType="centerInside"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_below="@+id/main_view"
+        android:id="@+id/textview_name"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Olá"
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/textview_phrase"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:text="dededededed"
+        android:gravity="center"
+        android:textSize="18sp"
+
+
+        />
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textview_phrase"
+        android:background="@color/wine"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/button_new_phrase"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:hint="NOVA FRASE"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/wine"
+
+
+
+        />
+
+
+
+</RelativeLayout>
